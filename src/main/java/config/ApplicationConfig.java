@@ -12,7 +12,8 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 @Configuration
-@ComponentScan (basePackages = {"dao", "controller", "service"})
+@ComponentScan (basePackages = {"dao", "controller", "service", "utility"})
+//@ComponentScan (basePackages = "\\")
 @PropertySource("classpath:application.properties")
 public class ApplicationConfig {
 

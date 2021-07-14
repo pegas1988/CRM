@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 public class ClientDaoImpl implements ClientDao {
 
-    private DataSource dataSource;
+    private final DataSource dataSource;
 
     private static final String SELECT_FROM_CLIENT = "select * from client";
     private static final String SELECT_FROM_CLIENT_WHERE_FIRST_NAME_AND_LAST_NAME = "select * from client where first_name = ? and last_name = ?";
@@ -26,8 +26,6 @@ public class ClientDaoImpl implements ClientDao {
         this.dataSource = dataSource;
     }
 
-    public ClientDaoImpl() {
-    }
 //private static final String UPDATE_CLIENTS_Di_BY_NAME = "update client set last_name = 'changed' where first_name = ?";
 
     @Override
