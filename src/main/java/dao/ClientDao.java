@@ -1,19 +1,10 @@
 package dao;
 
 import entity.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import java.util.List;
 
-public interface ClientDao {
-
-    Client findById(int id);
-
-    void create(Client client);
-
-    void delete(Client client);
-
-    List<Client> findAll();
-
-    List<Client> findByFirstNameAndSecondName(String name, String secondName);
-
+@Repository
+public interface ClientDao extends JpaRepository<Client, Long> {
 }

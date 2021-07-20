@@ -5,10 +5,14 @@ import service.MaterialService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.sql.SQLException;
 
 public class CreateMaterialController implements Controller{
 
     MaterialService materialService = new MaterialService();
+
+    public CreateMaterialController() throws SQLException {
+    }
 
     @Override
     public ControllerResultDto execute(HttpServletRequest req, HttpServletResponse resp) {

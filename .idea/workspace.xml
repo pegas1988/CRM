@@ -7,13 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e90ccad9-5321-4847-848a-e43dfc4852e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utility/ContextForConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRM_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRM_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DeleteMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialCreatedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MaterialCreatedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowDeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowDeleteMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowSeeAllMaterialsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowSeeAllMaterialsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialProceedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialProceedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/ClientDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/MaterialDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/MaterialDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +52,6 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -84,17 +97,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="order: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="order_product: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="client: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -158,18 +161,25 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyApps\CRM\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\MyApps\CRM\src\main\webapp\WEB-INF\jsp\icons" />
@@ -190,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringMain">
+  <component name="RunManager" selected="Spring Boot.ApplicationStarter">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="service.MainClass" />
       <module name="CRM" />
@@ -209,10 +219,23 @@
       <module name="CRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utility.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="config.ApplicationStarter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,9 +379,11 @@
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.SpringMain" />
       <item itemvalue="Tomcat Server.CRM" />
+      <item itemvalue="Spring Boot.ApplicationStarter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApplicationStarter" />
         <item itemvalue="Application.SpringMain" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass" />
@@ -445,7 +470,17 @@
       <workItem from="1625306229947" duration="43443000" />
       <workItem from="1625685224009" duration="22408000" />
       <workItem from="1626119373262" duration="17641000" />
-      <workItem from="1626295921256" duration="1780000" />
+      <workItem from="1626295921256" duration="1998000" />
+      <workItem from="1626371537322" duration="620000" />
+      <workItem from="1626387411812" duration="73000" />
+      <workItem from="1626387627576" duration="28000" />
+      <workItem from="1626389337572" duration="35000" />
+      <workItem from="1626389418159" duration="602000" />
+      <workItem from="1626464718987" duration="54000" />
+      <workItem from="1626466154264" duration="1278000" />
+      <workItem from="1626474638368" duration="412000" />
+      <workItem from="1626505964475" duration="1831000" />
+      <workItem from="1626719860757" duration="9088000" />
     </task>
     <task id="LOCAL-00001" summary="WorkWithDB">
       <created>1622149434236</created>
@@ -506,7 +541,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java</url>
-          <line>14</line>
+          <line>18</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -533,6 +568,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/utility/SpringMain.java</url>
           <line>13</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/config/ApplicationStarter.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

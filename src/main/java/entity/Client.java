@@ -1,16 +1,35 @@
 package entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
+@Entity
+@Table(name = "client")
 public class Client {
 
-    private Integer ClientID;
+    @Id
+    private Long ClientID;
+
+    @Column(name = "first_name")
     private String firstName;
+
+    @Column(name = "last_name")
     private String lastName;
+
+    @Column(name = "date_of_birth")
     private Date dateOfBirth;
+
+    @Column(name = "sex")
     private String sex;
+
     private int phoneNumber;
+
+    @Column(name = "diagnoses")
     private String diagnose;
+
     private String twoDScanname;
 
     public String getTwoDScan() {
@@ -102,11 +121,11 @@ public class Client {
                 '}';
     }
 
-    public Integer getClientID() {
+    public Long getClientID() {
         return ClientID;
     }
 
-    public void setClientID(Integer clientID) {
+    public void setClientID(Long clientID) {
         ClientID = clientID;
     }
 }

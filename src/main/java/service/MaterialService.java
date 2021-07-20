@@ -18,7 +18,7 @@ public class MaterialService {
     //ApplicationConfig applicationConfig = new ApplicationConfig();
 
     //MaterialDaoImpl materialDao = new MaterialDaoImpl(applicationConfig.dataSource());
-    MaterialDaoImpl materialDao = new MaterialDaoImpl();
+    MaterialDaoImpl materialDao; // = new MaterialDaoImpl();
 
     public MaterialService() throws SQLException {
     }

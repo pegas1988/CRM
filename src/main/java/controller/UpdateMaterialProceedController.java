@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class UpdateMaterialProceedController implements Controller {
 
-    MaterialService materialService = new MaterialService();
+//    MaterialService materialService = new MaterialService();
 
     @Override
     public ControllerResultDto execute(HttpServletRequest req, HttpServletResponse resp) throws IOException {

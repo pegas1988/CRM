@@ -18,7 +18,7 @@ public class ClientCreateController implements Controller {
         client.setFirstName(clientName);
         client.setLastName(clientLastName);
         client.setSex(gender);
-        clientService.create(client);
+//        clientService.create(client);
         return new ControllerResultDto("clientCreated", true);
     }
 }

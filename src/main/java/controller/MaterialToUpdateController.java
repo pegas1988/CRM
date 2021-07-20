@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MaterialToUpdateController implements Controller {
 
-    MaterialService materialService = new MaterialService();
+//    MaterialService materialService = new MaterialService();
 
     @Override
     public ControllerResultDto execute(HttpServletRequest req, HttpServletResponse resp) throws IOException {
@@ -30,7 +30,7 @@ public class MaterialToUpdateController implements Controller {
         material.setMaterialName(name);
         material.setQuantity(Integer.parseInt(quantity));
         material.setPrice(Integer.parseInt(price));
-        materialService.updateMaterial(material, materialService.getMaterialIDByName(materialOld));
+//        materialService.updateMaterial(material, materialService.getMaterialIDByName(materialOld));
         return new ControllerResultDto("materialUpdated");
     }
 }

@@ -24,12 +24,12 @@ public class ControllerFactory {
         controllerMap.put("GET/createMaterial", new ShowPageController("createMaterial"));
         controllerMap.put("GET/materialCreated", new ShowPageController("materialCreated"));
         controllerMap.put("POST/materialCreated", new MaterialCreatedController());
-        controllerMap.put("POST/createMaterial", new CreateMaterialController());
+//        controllerMap.put("POST/createMaterial", new CreateMaterialController());
         controllerMap.put("GET/updateMaterial", new ShowPageController("updateMaterial"));
         controllerMap.put("POST/updateMaterial", new UpdateMaterialController());
         controllerMap.put("POST/updateMaterialProceed", new UpdateMaterialProceedController());
         controllerMap.put("GET/deleteMaterial", new ShowDeleteMaterialController("deleteMaterial"));
-        controllerMap.put("POST/deleteMaterial", new DeleteMaterialController());
+//        controllerMap.put("POST/deleteMaterial", new DeleteMaterialController());
         controllerMap.put("GET/materialUpdated", new ShowPageController("materialUpdated"));
         controllerMap.put("GET/orderCreated", new ShowPageController("orderCreated"));
         controllerMap.put("GET/updateMaterialProceed", new ShowPageController("updateMaterialProceed"));
