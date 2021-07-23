@@ -7,30 +7,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e90ccad9-5321-4847-848a-e43dfc4852e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CRM_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CRM_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ControllerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DeleteMaterialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialCreatedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MaterialCreatedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowDeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowDeleteMaterialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowSeeAllMaterialsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ShowSeeAllMaterialsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialProceedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialProceedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/ClientDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/MaterialService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ApplicationStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/ApplicationStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ControllerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ControllerResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ControllerResultDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CreateNewProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateNewProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DeleteUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ListOfClientsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfClientsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ListOfProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfProductsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialCreatedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialCreatedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialToUpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/OrderCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowCreateOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowCreateOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowDeleteMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowDeleteMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ShowSeeAllMaterialsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowSeeAllMaterialsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateMaterialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateMaterialProceedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateMaterialProceedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateProceedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateProceedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ClientDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DailyReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/DailyReportDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MaterialDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/MaterialDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ProductMaterialDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ProductMaterialDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/exception/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/exception/DAOException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ClientDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/ClientDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/DailyReportDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/DailyReportDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/MaterialDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/MaterialDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/DailyReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/DailyReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Stages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Stages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DailyReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/DailyReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MaterialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MaterialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/AddUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/AddUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/DeleteUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/ShowListOfUsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/ShowListOfUsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/ContextForConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/ContextForConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/PostgresUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/PostgresUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/SpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/SpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/materialToUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/materialToUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateMaterialProceed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateMaterialProceed.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateProceed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateProceed.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +146,47 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="client: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="daily_report: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="order_product: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="product: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="product_material: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="user: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -200,13 +289,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationStarter">
+  <component name="RunManager" selected="Spring Boot.ApplicationStarter (1)">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="service.MainClass" />
+      <option name="MAIN_CLASS_NAME" value="com.hillel.crm.config.service.MainClass" />
       <module name="CRM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controller.*" />
+          <option name="PATTERN" value="com.hillel.crm.config.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,7 +304,7 @@
       </method>
     </configuration>
     <configuration name="SpringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utility.SpringMain" />
+      <option name="MAIN_CLASS_NAME" value="com.hillel.crm.config.utility.SpringMain" />
       <module name="CRM" />
       <extension name="coverage">
         <pattern>
@@ -223,6 +312,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationStarter (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="CRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hillel.crm.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hillel.crm.config.ApplicationStarter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,7 +337,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="config.ApplicationStarter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ApplicationStarter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -378,8 +480,9 @@
     <list>
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.SpringMain" />
-      <item itemvalue="Tomcat Server.CRM" />
+      <item itemvalue="Spring Boot.ApplicationStarter (1)" />
       <item itemvalue="Spring Boot.ApplicationStarter" />
+      <item itemvalue="Tomcat Server.CRM" />
     </list>
     <recent_temporary>
       <list>
@@ -480,7 +583,8 @@
       <workItem from="1626466154264" duration="1278000" />
       <workItem from="1626474638368" duration="412000" />
       <workItem from="1626505964475" duration="1831000" />
-      <workItem from="1626719860757" duration="9088000" />
+      <workItem from="1626719860757" duration="9722000" />
+      <workItem from="1626883731031" duration="12283000" />
     </task>
     <task id="LOCAL-00001" summary="WorkWithDB">
       <created>1622149434236</created>
@@ -525,54 +629,54 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/DeleteUserController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java</url>
           <line>12</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/servlet/DeleteUserServlet.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java</url>
+          <line>28</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/LoginController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/LoginController.java</url>
           <line>20</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/CreateMaterialController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateMaterialController.java</url>
           <line>18</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/MaterialToUpdateController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialToUpdateController.java</url>
           <line>15</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/ClientCreateController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java</url>
           <line>13</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/ListOfProductsController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfProductsController.java</url>
           <line>21</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/OrderCreateController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/OrderCreateController.java</url>
           <line>25</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utility/SpringMain.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/SpringMain.java</url>
+          <line>12</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/config/ApplicationStarter.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/ApplicationStarter.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

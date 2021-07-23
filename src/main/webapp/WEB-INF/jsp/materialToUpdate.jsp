@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--@elvariable id="material" type="entity.Material"--%>
+<%--@elvariable id="material" type="com.hillel.crm.config.entity.Material"--%>
 <html>
 <head>
     <title>UpdateMaterial</title>

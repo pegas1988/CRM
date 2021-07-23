@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--@elvariable id="material" type="entity.Material"--%>
+<%--@elvariable id="material" type="com.hillel.crm.config.entity.Material"--%>
 <%--
   Created by IntelliJ IDEA.
   User: Администратор

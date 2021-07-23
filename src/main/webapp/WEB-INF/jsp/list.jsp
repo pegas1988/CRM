@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%--@ variable id="user" type="\servlet\ShowListOfUsersServlet" --%>
+<%--@ variable id="user" type="\com.hillel.crm.config.servlet\ShowListOfUsersServlet" --%>
 <html>
 <head>
     <title>List of all users </title>

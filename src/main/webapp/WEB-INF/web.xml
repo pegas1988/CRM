@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>add</servlet-name>
-        <servlet-class>servlet.AddUserServlet</servlet-class>
+        <servlet-class>com.hillel.crm.config.servlet.AddUserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>add</servlet-name>
