@@ -29,7 +29,8 @@ public class DeleteUserServlet extends HttpServlet {
         String name = req.getParameter("firstName");
         String lastName = req.getParameter("lastName");
 
-        User user = new User(name, lastName);
+        User user = new User();
+        user.builder().firstName(name).lastName(lastName);
         //  userService.deleteFromUser(user);
         resp.sendRedirect("userdelete");
         //req.getRequestDispatcher("/WEB-INF/jsp/userdelete.jsp").forward(req, resp);

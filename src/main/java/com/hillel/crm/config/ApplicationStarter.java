@@ -1,16 +1,9 @@
 package com.hillel.crm.config;
 
-import com.hillel.crm.config.dao.ClientDao;
 import com.hillel.crm.config.dao.MaterialDao;
-import com.hillel.crm.config.dao.ProductDao;
-import com.hillel.crm.config.entity.Client;
-import com.hillel.crm.config.entity.Material;
-import com.hillel.crm.config.entity.Product;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-
-import java.util.List;
 import java.util.Optional;
 
 @SpringBootApplication

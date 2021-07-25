@@ -25,7 +25,14 @@ public class AddUserServlet extends HttpServlet {
         String userRole = req.getParameter("userRole");
         String password = req.getParameter("psw");
 
-        User user = new User(email, name, lastName, password, roles.valueOf(userRole));
+        User user = new User();
+        user.builder()
+                .email(email)
+                .firstName(name)
+                .lastName(lastName)
+                .password(password)
+                .userRole(roles.valueOf(userRole))
+                .build();
         UserService us = new UserService();
       //  us.create(user);
         req.getRequestDispatcher("/WEB-INF/jsp/userWasCreated.jsp").forward(req, resp);

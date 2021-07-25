@@ -8,7 +8,14 @@ public class MainClass {
         ClientService clientService = new ClientService();
         UserService userService = new UserService();
 
-        User user = new User("mike", "mike", "123", "DOCTOR", roles.DOCTOR);
+        User user = new User();
+        user.builder()
+                .firstName("mike")
+                .lastName("mike")
+                .password("123")
+                .userRole(roles.DOCTOR)
+                .email("DOCTOR")
+                .build();
         UserService us = new UserService();
         //us.create(user);
     }
