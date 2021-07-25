@@ -14,10 +14,11 @@ public class ClientCreateController implements Controller {
         String clientName = req.getParameter("clientName");
         String clientLastName = req.getParameter("clientLastName");
         String gender = req.getParameter("gender");
-        Client client = new Client();
-        client.setFirstName(clientName);
-        client.setLastName(clientLastName);
-        client.setSex(gender);
+        Client client = Client.builder()
+                .firstName(clientName)
+                .lastName(clientLastName)
+                .sex(gender)
+                .build();
 //        clientService.create(client);
         return new ControllerResultDto("clientCreated", true);
     }

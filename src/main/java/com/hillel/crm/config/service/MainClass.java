@@ -8,8 +8,7 @@ public class MainClass {
         ClientService clientService = new ClientService();
         UserService userService = new UserService();
 
-        User user = new User();
-        user.builder()
+        User user = User.builder()
                 .firstName("mike")
                 .lastName("mike")
                 .password("123")

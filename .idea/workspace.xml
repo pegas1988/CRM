@@ -7,25 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e90ccad9-5321-4847-848a-e43dfc4852e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/ApplicationStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/ApplicationStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ClientDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ClientDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/DailyReportDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/DailyReportDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/MaterialDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/MaterialDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/DailyReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/DailyReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Material.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/AddUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/AddUserServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java" afterDir="false" />
@@ -544,7 +528,7 @@
       <workItem from="1626505964475" duration="1831000" />
       <workItem from="1626719860757" duration="9722000" />
       <workItem from="1626883731031" duration="14024000" />
-      <workItem from="1627212671713" duration="3790000" />
+      <workItem from="1627212671713" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="WorkWithDB">
       <created>1622149434236</created>

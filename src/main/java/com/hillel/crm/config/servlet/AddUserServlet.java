@@ -25,8 +25,7 @@ public class AddUserServlet extends HttpServlet {
         String userRole = req.getParameter("userRole");
         String password = req.getParameter("psw");
 
-        User user = new User();
-        user.builder()
+        User user = User.builder()
                 .email(email)
                 .firstName(name)
                 .lastName(lastName)

@@ -12,8 +12,10 @@ public class DeleteUserController implements Controller {
     public ControllerResultDto execute(HttpServletRequest req, HttpServletResponse resp) {
         String firstName = req.getParameter("firstName");
         String lastName = req.getParameter("lastName");
-        User user = new User();
-        user.builder().firstName(firstName).lastName(lastName);
+        User user = User.builder()
+                .firstName(firstName)
+                .lastName(lastName)
+                .build();
        // userService.deleteFromUser(user);
         return new ControllerResultDto("userdelete", true);
     }
