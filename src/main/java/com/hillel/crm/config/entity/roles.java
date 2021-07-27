@@ -1,7 +1,7 @@
 package com.hillel.crm.config.entity;
 
 
-public enum roles {
+public enum  roles {
     DIAGNOST,
     DESIGNER,
     ADMINISTRATOR,

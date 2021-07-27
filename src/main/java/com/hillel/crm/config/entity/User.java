@@ -5,7 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "myuser", schema = "public")
 @Builder
 @Getter
 @Setter
@@ -15,7 +15,8 @@ public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer userID;
+    @Column(name = "user_id")
+    private Long userID;
 
     @Column(name = "email")
     private String email;
@@ -30,5 +31,5 @@ public class User {
     private String password;
 
     @Column(name = "user_role")
-    private roles userRole;
+    private String userRole;
 }

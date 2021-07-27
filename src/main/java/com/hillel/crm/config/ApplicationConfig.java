@@ -17,16 +17,4 @@ import java.sql.SQLException;
 @EnableJpaRepositories(basePackages = {"com.hillel.crm.config.dao"})
 @PropertySource("classpath:application.properties")
 public class ApplicationConfig {
-
-    @Autowired
-    Environment environment;
-
-    @Bean
-    public DataSource dataSource() throws SQLException {
-       PGSimpleDataSource ds = new PGSimpleDataSource();
-       ds.setUser(environment.getProperty("spring.datasource.user"));
-       ds.setPassword(environment.getProperty("spring.datasource.password"));
-       ds.setURL(environment.getProperty("spring.datasource.url"));
-        return ds.unwrap(DataSource.class);
-    }
 }

@@ -22,7 +22,7 @@ public class UpdateProceedController implements Controller {
         user.setFirstName(userName);
         user.setLastName(userLastName);
         user.setPassword(password);
-        user.setUserRole(roles.valueOf(userRole));
+        //user.setUserRole(roles.valueOf(userRole));
         user.setEmail(oldEmail);
         //userService.updateUser(user);
         req.setAttribute("user", user);

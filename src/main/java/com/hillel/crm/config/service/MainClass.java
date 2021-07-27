@@ -12,7 +12,7 @@ public class MainClass {
                 .firstName("mike")
                 .lastName("mike")
                 .password("123")
-                .userRole(roles.DOCTOR)
+                //.userRole(roles.DOCTOR)
                 .email("DOCTOR")
                 .build();
         UserService us = new UserService();

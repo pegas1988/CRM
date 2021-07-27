@@ -30,7 +30,7 @@ public class AddUserServlet extends HttpServlet {
                 .firstName(name)
                 .lastName(lastName)
                 .password(password)
-                .userRole(roles.valueOf(userRole))
+                //.userRole(roles.valueOf(userRole))
                 .build();
         UserService us = new UserService();
       //  us.create(user);

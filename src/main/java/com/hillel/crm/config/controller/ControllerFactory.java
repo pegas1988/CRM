@@ -16,7 +16,7 @@ public class ControllerFactory {
         controllerMap.put("GET/login", new ShowPageController("login"));
         controllerMap.put("GET/list", new ShowPageController("list"));
         controllerMap.put("GET/updateUser", new ShowPageController("updateUser"));
-        controllerMap.put("POST/login", new LoginController());
+        //controllerMap.put("POST/login", new LoginController());
         controllerMap.put("POST/updateUser", new UpdateUserController());
         controllerMap.put("GET/updateProceed", new ShowPageController("updateProceed"));
         controllerMap.put("POST/updateProceed", new UpdateProceedController());
