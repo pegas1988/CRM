@@ -1,10 +1,14 @@
 package com.hillel.crm.config.service;
 
 import com.hillel.crm.config.entity.User;
-import com.hillel.crm.config.entity.roles;
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.xml.DOMConfigurator;
 
 public class MainClass {
     public static void main(String[] args) {
+
+        PropertyConfigurator.configure("D:\\MyApps\\CRM\\src\\main\\resources\\log4j.properties");
+
         ClientService clientService = new ClientService();
         UserService userService = new UserService();
 
