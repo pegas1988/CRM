@@ -18,9 +18,9 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "order_id")
-    private Integer orderID;
+    private Long orderID;
 
-    @Column(name = "creating_day")
+    @Column(name = "creating_date")
     private Date dateCreating;
 
     @Column(name = "total_price")
