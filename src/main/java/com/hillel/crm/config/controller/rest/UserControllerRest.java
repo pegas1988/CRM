@@ -20,9 +20,9 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/rest/users")
 @RequiredArgsConstructor
-public class UserCreateControllerRest {
+public class UserControllerRest {
 
-    private static final Logger logger = LoggerFactory.getLogger((UserCreateControllerRest.class));
+    private static final Logger logger = LoggerFactory.getLogger((UserControllerRest.class));
     private final UserServiceRestImpl userServiceRest;
 
     @RequestMapping(value = "/get-test", method = RequestMethod.GET)

@@ -2,6 +2,7 @@ package com.hillel.crm.config.dto;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Date;
@@ -9,9 +10,10 @@ import java.util.Date;
 @Getter
 @Setter
 @Builder
+@NoArgsConstructor
 public class OrderDto {
 
-    private Integer orderID;
+    private Long orderID;
     private Date dateCreating;
     private int totalPrice;
     private String stage;
