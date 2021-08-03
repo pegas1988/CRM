@@ -7,17 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e90ccad9-5321-4847-848a-e43dfc4852e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/ClientControllerRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/MaterialControllerRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/OrderControllerRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/ProductControllerRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/DailyReportControllerRest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/UserCreateControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/rest/UserControllerRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ControllerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateMaterialController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateNewProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteMaterialController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfClientsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialCreatedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialToUpdateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/OrderCreateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowCreateOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowDeleteMaterialController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ShowSeeAllMaterialsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateMaterialController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateMaterialProceedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateProceedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/UpdateUserController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/ClientDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/DailyReportDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/DailyReportDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/MaterialDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/MaterialDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/OrderDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/DailyReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/MaterialService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/AddUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/ShowListOfUsersServlet.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -429,7 +458,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@95f56742" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4266b1af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c9794648" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -500,7 +529,7 @@
       <workItem from="1626883731031" duration="14024000" />
       <workItem from="1627212671713" duration="28818000" />
       <workItem from="1627668806760" duration="744000" />
-      <workItem from="1627669582063" duration="25340000" />
+      <workItem from="1627669582063" duration="26883000" />
     </task>
     <task id="LOCAL-00001" summary="WorkWithDB">
       <created>1622149434236</created>
@@ -545,44 +574,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/DeleteUserController.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/servlet/DeleteUserServlet.java</url>
-          <line>28</line>
+          <line>26</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/LoginController.java</url>
-          <line>30</line>
+          <line>27</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/CreateMaterialController.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/MaterialToUpdateController.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ClientCreateController.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/ListOfProductsController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/controller/OrderCreateController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hillel/crm/config/utility/SpringMain.java</url>

@@ -1,9 +1,6 @@
 package com.hillel.crm.config.dto;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Date;
 
@@ -11,6 +8,7 @@ import java.util.Date;
 @Setter
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class OrderDto {
 
     private Long orderID;
